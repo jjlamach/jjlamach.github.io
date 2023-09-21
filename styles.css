@@ -1,6 +1,11 @@
-.center {
-   margin: auto;
-   /* width: 50%; */
-   border: 2px solid purple;
-   padding: 10px; 
+.pdf-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+embed {
+   width: 100%;
+   height: 100%;
 }
